@@ -172,6 +172,7 @@ void drawBlobsAndEdges()
 }
 
 //this was SUPPOSED to reject small blobs, havent gotten it to work
+//ALSO borrowed code, working on finding source
 boolean newBlobDetectedEvent (Blob b) { 
   int w = (int)(b.w*width );
   int h = (int)(b.h*width );
